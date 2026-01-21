@@ -1,0 +1,7 @@
+# Configurações globais do consolepy para o projeto
+level = "DEBUG"           # Níveis: DEBUG, INFO, SUCCESS, WARN, ERROR
+json = true               # True ou false → logs JSON ativados
+no_timestamp = false      # True para desabilitar timestamp
+log_rotation = true       # True para limpar logs ao iniciar
+out_file = "out.log"      # arquivo padrão para logs "normais"
+err_file = "err.log"      # arquivo padrão para logs de erro

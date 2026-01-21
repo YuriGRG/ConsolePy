@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "consolepy"
+name = "consoleprintpy"
 version = "0.1.0"
 description = "JS-like console logging for Python with colors and styles"
 authors = [{ name = "Yurigabriel6" }]

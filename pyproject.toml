@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "consoleprintpy"
-version = "0.1.1"
+version = "0.1.2"
 description = "JS-like console logging for Python with colors and styles"
 authors = [{ name = "Yurigabriel6" }]
 readme = "README.md"

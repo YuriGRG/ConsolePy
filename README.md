@@ -5,10 +5,10 @@ JS-like console logging for Python with colors, styles, and CLI.
 ## Features
 
 - Styled console output with colors, bold, underline, strike, markdown parsing
-- Logging levels: DEBUG, INFO, SUCCESS, WARN, ERROR
+- Logging levels: DEBUG, INFO, SUCCESS, FAILURE, WARN, ERROR
 - Automatic timestamp support
 - JSON logs and file logging (`out.log`, `err.log`)
-- JS-like methods: `console.print`, `console.debug`, `console.info`, `console.warn`, `console.error`, `console.success`, `console.exception`
+- JS-like methods: `console.print`, `console.debug`, `console.info`, `console.warn`, `console.error`, `console.success`, `console.failure`, `console.exception`
 - CLI: run Python scripts with consolepy fully configured
 - Configurable via `.consolepy.toml`
 - Automatic log rotation
@@ -19,10 +19,7 @@ consolepy run myscript.py
 ## Installation
 
 ```bash
-# Local development
-git clone <repo>
-cd consolepy
-pip install -e .
+pip install consoleprintpy
 ```
 
 ## Usage
